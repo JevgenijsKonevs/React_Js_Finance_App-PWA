@@ -82,3 +82,16 @@
   color: #fff;
   font-size: 100px;
 }
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 1220px;
+}
+th, td {
+  padding: 10px;
+  text-align: left;    
+}
+#coin-price, #coin-volume, #coin-24h-change, #coin-marketcap {
+  text-align: center
+}

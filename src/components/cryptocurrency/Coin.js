@@ -1,10 +1,11 @@
 import React from 'react'
 import './Coin.css';
-const Coin = ({name,image,symbol,price,volume, priceChange,marketcap}) => {
+const Coin = ({rank,name,image,symbol,price,volume, priceChange,marketCap}) => {
     return (
         <div className="coin-container">
             <div className="coin-row">
                 <div className="coin">
+                    <p className="coin-rank">{rank}</p>
                     <img src={image} alt="crypto"/>
                     <h1>{name}</h1>
                     <p className="coin-symbol">{symbol}</p>
@@ -17,7 +18,7 @@ const Coin = ({name,image,symbol,price,volume, priceChange,marketcap}) => {
                     ):(
                         <p className="coin-percent green">{priceChange.toFixed(2)}%</p> 
                     ) }
-                    <p className="coin-marketcap">M. Cap : ${marketcap.toLocaleString()}</p>
+                    <p className="coin-marketcap">${marketCap.toLocaleString()}</p>
                 </div>
             </div>
         </div>

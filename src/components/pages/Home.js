@@ -26,20 +26,35 @@ export default function Home() {
             <div className='coin-search'>
                 <h1 className='coin-text'>Search a currency</h1>
                 <form>
-                    <input type="text" placeholder="search" className="coin-input" onChange={handleChange}/>
+                    <input type="text" placeholder="Search" className="coin-input" onChange={handleChange}/>
                 </form>
+            </div>
+            <div className="info-bar">
+            <table>
+            <tr>
+                <td id="rank">#</td>
+                <td id="coin-name">Coin</td>
+                <td></td>
+                <td id="coin-price">Price</td>
+                <td id="coin-volume">24h volume</td>
+                <td id="coin-24h-change">24h</td>
+                <td id="coin-marketcap">M. Cap</td>
+
+        </tr>
+                </table>
             </div>
             {filteredCoins.map(coin => {
                 return (
                     <Coin 
                     key={coin.id} 
+                    rank={coin.market_cap_rank}
                     name={coin.name} 
                     image={coin.image}
                     symbol={coin.symbol}
                     volume={coin.total_volume}
                     price={coin.current_price}
                     priceChange={coin.price_change_percentage_24h}
-                    marketcap={coin.market_cap}
+                    marketCap={coin.market_cap}
                     />
                 )
             })}
