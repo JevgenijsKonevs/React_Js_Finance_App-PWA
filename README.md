@@ -13,7 +13,7 @@ Creating a finance web application by using React JS, which will provide several
 •	PWA version ❌<<br />
 
 ## API used :
-API used: https://covid19.mathdro.id/api<br />
+API used: https://api.coingecko.com/api <br />
 ## PWA version :
 In order to use this project as PWA :<br />
 • In progress
