@@ -6,11 +6,11 @@ Creating a finance web application by using React JS, which will provide several
 •	Cryptocurrency tracking ⚠️<br />
 •	Cryptocurrency latest news ❌<br />
 •	Cryptocurrency upcoming events ❌<br />
-•	Cryptocurrency analytics (markets / charts )❌<<br />
+•	Cryptocurrency analytics (markets / charts )❌<br />
 •	Stocks tracking ❌<br />
 •	Stocks latest news ❌<br />
-•	Login and user registration ❌<<br />
-•	PWA version ❌<<br />
+•	Login and user registration ❌<br />
+•	PWA version ❌<br />
 
 ## API used :
 API used: https://api.coingecko.com/api <br />
