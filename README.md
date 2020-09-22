@@ -19,7 +19,7 @@ In order to use this project as PWA :<br />
 • In progress
 
 ## Demo :
-![demo](https://user-images.githubusercontent.com/55871427/93815041-0f2db300-fc5e-11ea-8e13-bf3510f8b711.JPG)
+![demo](https://user-images.githubusercontent.com/55871427/93868509-34103d80-fcd3-11ea-8698-3ef4c98b6ab5.JPG)
 ## Available Scripts
 
 In the project directory, you can run:
