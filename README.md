@@ -1,7 +1,8 @@
 ## React_JS Finance App + PWA
-
+#### ⚠️ This project is in progress ⚠️
 ## About :
 Creating a finance web application by using React JS, which will provide several useful features (see Tasks).<br />
+
 ## Tasks
 •	Cryptocurrency tracking ⚠️<br />
 •	Cryptocurrency latest news ❌<br />
